@@ -1,15 +1,15 @@
 {
-  "name": "Seafile",
-  "release": "11.3-RELEASE",
+  "name": "seafile",
+  "release": "12.3-RELEASE",
   "plugin_schema": "2",
   "artifact": "https://github.com/TwilightCoders/iocage-plugin-seafile.git",
   "pkgs": [
-    "mariadb104-server",
-    "mariadb104-client",
     "seahub",
-    "www/nginx"
+    "seafile-server",
+    "www/nginx",
+    "mysql80-server"
   ],
-  "packagesite": "http://pkg.freebsd.org/FreeBSD:11:amd64/latest",
+  "packagesite": "http://pkg.freebsd.org/FreeBSD:12:amd64/latest",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {
