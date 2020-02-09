@@ -4,9 +4,8 @@
   "plugin_schema": "2",
   "artifact": "https://github.com/TwilightCoders/iocage-plugin-seafile.git",
   "pkgs": [
-    "mariadb104-server",
-    "mariadb104-client",
     "seahub",
+    "seafile-server",
     "www/nginx"
   ],
   "packagesite": "http://pkg.freebsd.org/FreeBSD:11:amd64/latest",
