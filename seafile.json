@@ -1,0 +1,22 @@
+{
+  "name": "Seafile",
+  "release": "11.3-RELEASE",
+  "plugin_schema": "2",
+  "artifact": "https://github.com/TwilightCoders/iocage-plugin-seafile.git",
+  "pkgs": [
+    "mariadb104-server",
+    "mariadb104-client",
+    "seahub",
+    "www/nginx"
+  ],
+  "packagesite": "http://pkg.freebsd.org/FreeBSD:11:amd64/latest",
+  "fingerprints": {
+	  "iocage-plugins": [
+		  {
+		    "function": "sha256",
+		    "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+	    }
+	  ]
+  },
+  "official": false
+}

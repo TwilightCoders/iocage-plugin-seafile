@@ -1,0 +1,37 @@
+{
+	"servicerestart":"service nginx restart",
+	"serviceget": "/usr/local/bin/pluginget",
+	"serviceset": "/usr/local/bin/pluginset",
+	"options": {
+		"dbname": {
+			"type": "string",
+			"name": "Database Name",
+			"description": "Database to use for Seafile setup",
+			"readonly": true
+		},
+		"dbuser": {
+			"type": "string",
+			"name": "Database Username",
+			"description": "Username to use for Seafile Database setup",
+			"readonly": true
+		},
+		"dbpassword": {
+			"type": "string",
+			"name": "Database Password",
+			"description": "Password to use for Seafile Database setup",
+			"readonly": true
+		},
+		"sfuser": {
+			"type": "string",
+			"name": "Seafile Username",
+			"description": "Username of Seafile administrator",
+			"readonly": true
+		},
+		"sfpassword": {
+			"type": "string",
+			"name": "Seafile Admin Password",
+			"description": "Default Seafile administrator password",
+			"readonly": true
+		}
+	}
+}
